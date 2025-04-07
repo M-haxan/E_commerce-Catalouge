@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="">
+    <nav class="bg-amber-400 p-5 h-20 md:flex md:items-center md:justify-between flex-row">
+        <div>
+          <span class=" text-green-800 font-[poppins]">
+            <img src="download.png" class="h-15 w-20 inline mix-blend-multiply">
+          </span>
+           
+        </div>
+        <ul class="md:flex md:items-center">
+            <li class="mx-4 ">
+              <input type="search" placeholder="Search..." class="px-4 py-2 border border-black  rounded-md focus:ring-2 focus:ring-black-500">
+              <button class="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800">Search</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="main-containor flex justify-center items-center ">
+        <div class="container m-[60px] w-4/5 p-[20px] max-w-[1000px] rounded-[10px] flex gap-[20px] bg-amber-300">
+            <div class="product-image">
+                <img class=" pro-img rounded-[10px]" alt="Wireless Bluetooth Headphones">
+            </div>
+            <div class="product-details flex flex-col justify-between w-1/2 ">
+                <h1 class=" des text-2xl"></h1>
+                <div class="flex ">
+                    <p class=" text-xl text-green-800 price">
+                        
+                   </p>
+                   <span id="price" class=" text-red-900 line-through mx-[10px] "></span>
+                </div>
+                
+                                
+                <div class="rating flex items-center m-[10px 0] ">
+                    <span class="text-lg text-yellow-400 bg-white">★★★★☆</span> 
+                </div>
+                <ul class="features m-[15px] p-4">
+                    <!-- <li>Bluetooth 5.0</li>
+                    <li>30-hour battery life</li>
+                    <li>Noise Cancellation</li>
+                    <li>Built-in Microphone</li> -->
+                </ul> 
+                <button class=" btn bg-black text-white text-lg text-center" >Add to Cart</button>
+               
+            </div>
+        </div>
+    </div>  
+    <script src="app.js"></script>
+</body>
+</html>
