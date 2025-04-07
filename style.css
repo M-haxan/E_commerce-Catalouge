@@ -1,0 +1,10 @@
+.details {
+  display: none; /* Initially hidden */
+  background: #f8f9fa;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+.hide{
+  display: none;
+}
