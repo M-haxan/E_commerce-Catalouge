@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+
+  </head>
+</head>
+<body class="bg-violet-200">
+<nav class="bg-amber-400 p-5 h-20 md:flex md:items-center md:justify-between flex-row">
+  <div>
+    <span class=" text-green-800 font-[poppins]">
+      <img src="download.png" class="h-15 w-20 inline mix-blend-multiply">
+    </span>
+     
+  </div>
+ 
+  <ul class="md:flex md:items-center">
+    <li class="mx-4 ">
+      <input type="search" placeholder="Search..." class=" search-bar px-4 py-2 border border-black  rounded-md focus:ring-2 focus:ring-black-500">
+      <button class="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800">Search</button>
+      <button class=" cart bg-white text-black rounded-full px-4" style="cursor: pointer;"> <img class="w-20 h-10 inline mix-blend-multiply" src="cart.png"><a href="mycart.html">My Cart</a></button>
+    </li>
+  </ul>
+</nav> 
+<!-- Cards Section -->
+<section class="py-10 bg-gray-100">
+  
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="heading text-2xl font-bold text-black text-center mb-6">Our Products</h2>
+    
+    <!-- Grid Layout for Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      
+      <!-- Card 1 -->
+      <div class=" card bg-white border border-gray-300 rounded-lg shadow-lg p-4">
+        <img src="Headphone2.jpeg" alt="Product 1" class="w-full h-48 object-cover rounded-md">
+        <h3 class="text-lg font-bold text-black mt-3">Wireless HeadPhone</h3>
+        <p class="text-gray-700 text-sm mt-1">Pure Base Headphone</p>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-amber-500 text-lg font-bold">Rs.3999</span>
+          <button  class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">
+            <a href="prodetail.html?id=1">View Details</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class=" card bg-white border border-gray-300 rounded-lg shadow-lg p-4">
+        <img src="redmi13.jpg" alt="Product 2" class="w-full h-48 object-cover rounded-md">
+        <h3 class="text-lg font-bold text-black mt-3">Smart phone 5G</h3>
+        <p class="text-gray-700 text-sm mt-1">Remi Note 13 </p>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-amber-500 text-lg font-bold">Rs.2999</span>
+          <button  class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">
+            <a href="prodetail.html?id=2">View Details</a>
+          </button>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class=" card bg-white border border-gray-300 rounded-lg shadow-lg p-4">
+        <img src="pro2.jpeg" alt="Product 2" class="w-full h-48 object-cover rounded-md">
+        <h3 class="text-lg font-bold text-black mt-3">Gaming Laptop - 16GB RAM, RTX 3060</h3>
+        <p class="text-gray-700 text-sm mt-1">Short product description goes here.</p>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-amber-500 text-lg font-bold">$79.99</span>
+          <button  class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">
+            <a href="prodetail.html?id=3">View Details</a>
+          </button>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class=" card bg-white border border-gray-300 rounded-lg shadow-lg p-4">
+        <img src="pro2.jpeg" alt="Product 2" class="w-full h-48 object-cover rounded-md">
+        <h3 class="text-lg font-bold text-black mt-3">Smartwatch - Fitness Tracker</h3>
+        <p class="text-gray-700 text-sm mt-1">Short product description goes here.</p>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-amber-500 text-lg font-bold">$79.99</span>
+          <button  class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">
+            <a href="prodetail.html?id=4">View Details</a>
+          </button>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class=" card bg-white border border-gray-300 rounded-lg shadow-lg p-4">
+        <img src="pro2.jpeg" alt="Product 2" class="w-full h-48 object-cover rounded-md">
+        <h3 class="text-lg font-bold text-black mt-3">4K Ultra HD Smart TV</h3>
+        <p class="text-gray-700 text-sm mt-1">Short product description goes here.</p>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-amber-500 text-lg font-bold">$79.99</span>
+          <button  class="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-900">
+            <a href="prodetail.html?id=5">View Details</a>
+          </button>
+        </div>
+      </div>
+
+      <!-- Add More Cards Here -->
+
+    </div>
+  </div>
+</section>
+
+</div>
+<!-- <script>
+  
+</script> -->
+<script src="search.js"></script>
+
+</body>
+</html>
