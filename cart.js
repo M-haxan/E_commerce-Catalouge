@@ -1,11 +1,9 @@
-  //  let cart_btn = document.querySelector(".cart");
-     let id= JSON.parse(localStorage.getItem("ID"));
-    //let newid=id.filter((value, index, self) => self.indexOf(value) === index);
+     let id= JSON.parse(localStorage.getItem("ID")); // Get The Array of Product ID from Local Storage
     fetch("products.json")
       .then((response) => (data = response.json()))
       .then((data) => {
         let productArray = data.products;
-        for (let element of id){
+        for (let element of id){ // Traverse the IDs of prducts to Display the product in My Cart
           let product_card= document.querySelector(".product-card");
           let product = productArray.find((p) => p.id == element);
           let div = document.createElement('div');
@@ -19,7 +17,7 @@
           let p = document.createElement("p");
           p.classList.add("p");
           p.textContent=`Rs. ${product.price}` ;
-          let del_btn = document.createElement("button");
+          let del_btn = document.createElement("button"); // Set Buuton to delete the product from My Cart
           del_btn.textContent="Delete Item";
           del_btn.classList.add("del-btn");
           product_card.appendChild(div);
@@ -29,13 +27,12 @@
           div.appendChild(del_btn);
           console.log("add");
           console.log(product.price);
-          del_btn.addEventListener("click", ()=>{
+          del_btn.addEventListener("click", ()=>{ 
             div.remove();
             let pro_id=  JSON.parse(localStorage.getItem("ID"));
             let updated_storage = pro_id.filter(item=> item!==element);
-            localStorage.setItem("ID", JSON.stringify(updated_storage));
+            localStorage.setItem("ID", JSON.stringify(updated_storage)); // Update the Local storage after dleleting the product
           });
         }
       })
       .catch((error) => console.error("Error loading JSON:", error));
-       //  let newWindow = window.open("", "_blank")
