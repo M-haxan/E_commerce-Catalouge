@@ -1,0 +1,114 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "price": 3999,
+        "discount": 10,
+        "final_price": 2999,
+        "stock": 120,
+        "rating": 4.5,
+        "reviews": 320,
+        "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life.",
+        "images": [
+          "Headphone1.jpeg",
+          "Headphone2.jpeg"
+        ],
+        "features": {
+          "connectivity": "Bluetooth 5.0",
+          "battery_life": "30 hours",
+          "noise_cancellation": true,
+          "microphone": true
+        }
+      },
+      {
+        "id": 2,
+        "name": "Smartphone 5G - 128GB",
+        "category": "Mobile Phones",
+        "price": 699.99,
+        "discount": 15,
+        "final_price": 594.99,
+        "stock": 50,
+        "rating": 4.8,
+        "reviews": 210,
+        "description": "Latest 5G smartphone with 128GB storage, 8GB RAM, and a 64MP triple camera setup.",
+        "images": [
+          "redmi13.jpg"
+        ],
+        "features": {
+          "screen_size": "6.5 inches",
+          "processor": "Snapdragon 888",
+          "battery": "4500mAh",
+          "charging": "Fast Charging 30W"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Gaming Laptop - 16GB RAM, RTX 3060",
+        "category": "Laptops",
+        "price": 1299.99,
+        "discount": 10,
+        "final_price": 1169.99,
+        "stock": 30,
+        "rating": 4.7,
+        "reviews": 180,
+        "description": "High-performance gaming laptop with 16GB RAM, RTX 3060 GPU, and 1TB SSD storage.",
+        "images": [
+          "https://example.com/images/laptop1.jpg",
+          "https://example.com/images/laptop2.jpg"
+        ],
+        "features": {
+          "screen_size": "15.6 inches",
+          "processor": "Intel i7 11th Gen",
+          "graphics": "NVIDIA RTX 3060",
+          "refresh_rate": "144Hz"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Smartwatch - Fitness Tracker",
+        "category": "Wearables",
+        "price": 199.99,
+        "discount": 5,
+        "final_price": 189.99,
+        "stock": 200,
+        "rating": 4.6,
+        "reviews": 290,
+        "description": "Feature-rich smartwatch with heart rate monitor, GPS, and sleep tracking.",
+        "images": [
+          "https://example.com/images/smartwatch1.jpg",
+          "https://example.com/images/smartwatch2.jpg"
+        ],
+        "features": {
+          "display": "AMOLED",
+          "battery_life": "7 days",
+          "water_resistant": "Yes (IP68)",
+          "connectivity": "Bluetooth 5.1"
+        }
+      },
+      {
+        "id": 5,
+        "name": "4K Ultra HD Smart TV",
+        "category": "Televisions",
+        "price": 899.99,
+        "discount": 20,
+        "final_price": 719.99,
+        "stock": 40,
+        "rating": 4.9,
+        "reviews": 150,
+        "description": "55-inch 4K UHD Smart TV with HDR support and built-in streaming apps.",
+        "images": [
+          "https://example.com/images/tv1.jpg",
+          "https://example.com/images/tv2.jpg"
+        ],
+        "features": {
+          "screen_size": "55 inches",
+          "resolution": "4K UHD",
+          "smart_tv": true,
+          "hdmi_ports": 4
+        }
+      }
+    ]
+  }
+  
